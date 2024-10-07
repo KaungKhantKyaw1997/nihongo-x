@@ -42,6 +42,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
  * /api/jpn-random-character/{type}:
  *   get:
  *     summary: Get a random Japanese character (hiragana or katakana)
+ *     tags: [Japanese Characters]
  *     parameters:
  *       - in: path
  *         name: type
@@ -121,6 +122,7 @@ app.get("/api/jpn-random-character/:type", (req, res) => {
  * /api/eng-random-character/{type}:
  *   get:
  *     summary: Get a random English character (with corresponding Japanese translation)
+ *     tags: [English Characters]
  *     parameters:
  *       - in: path
  *         name: type
