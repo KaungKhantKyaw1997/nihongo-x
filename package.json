@@ -1,0 +1,25 @@
+{
+  "name": "nihongo-x",
+  "version": "1.0.1",
+  "description": "Interactive quiz app for learning and practicing Japanese characters.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "japanese",
+    "quiz",
+    "character-recognition",
+    "express",
+    "randomizer"
+  ],
+  "author": "Kaung Khant Kyaw",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
